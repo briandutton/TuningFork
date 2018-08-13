@@ -200,11 +200,11 @@
 				TargetAttributes = {
 					DD28EB081BD21EC000DA041C = {
 						CreatedOnToolsVersion = 7.0.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0940;
 					};
 					DDBA27D51BEFEAAF00A41D1E = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -269,14 +269,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TuningForkTests/Pods-TuningForkTests-frameworks.sh",
-				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
-				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
 				"${BUILT_PRODUCTS_DIR}/Chronos-Swift/Chronos.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Chronos.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
