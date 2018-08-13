@@ -10,7 +10,7 @@ target 'TuningFork' do
 end
 
 target 'TuningForkTests' do
-  pod 'AudioKit', '~> 4.0'
+  pod 'AudioKit'
   pod 'Chronos-Swift', '~> 0.3.0'
 end
 
